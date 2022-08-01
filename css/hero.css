@@ -55,11 +55,7 @@
     max-width: 50rem;
     margin: 0 auto;
 }
-.policy__img {
-    display: block;
-    width: 100%;
-    margin-bottom: 3rem;
-}
+
 .policy__item .sub-title,
 .policy__item .text {
     margin-bottom: 2rem;
@@ -108,16 +104,11 @@
     }
     .policy__item {
         display: flex;
-        align-items: center;
     }
     .policy__item:nth-child(odd) {
         flex-direction: row-reverse;
     }
-    .policy__img {
-        max-width: 70rem;
-        margin-bottom: 0;
-        margin-right: 5rem;
-    }
+ 
     .policy__block {
         max-width: 50rem;
         margin: 0 auto;
@@ -150,5 +141,18 @@
     }
     .contacts__item-link:hover .text::after {
         width: 100%;
+    }
+
+
+
+    .policy__box {
+        flex-grow: 1;
+        max-width: 40%;
+    }
+    .policy__box.first {
+        background-color: var(--fourth-brand-color);
+    }
+    .policy__box.second {
+        background-color: var(--second-brand-color);
     }
 }
