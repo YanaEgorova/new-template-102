@@ -43,6 +43,7 @@
 .contacts__item svg {
     display: block;
     margin-bottom: 1rem;
+    fill: var(--second-brand-color);
 }
 
 .policy__wrapper {
